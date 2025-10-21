@@ -1,0 +1,32 @@
+<VRTDataset rasterXSize="636" rasterYSize="400">
+  <SRS dataAxisToSRSAxisMapping="1,2">LOCAL_CS["SIRGAS-Chile.UTM-18S"]</SRS>
+  <GeoTransform>  1.2212395956556797e+06,  5.0000000000000000e+00,  0.0000000000000000e+00,  5.5689725748405457e+06,  0.0000000000000000e+00, -5.0000000000000000e+00</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">228</MDI>
+      <MDI key="STATISTICS_MEAN">186.70087943524</MDI>
+      <MDI key="STATISTICS_MINIMUM">146</MDI>
+      <MDI key="STATISTICS_STDDEV">23.359052388812</MDI>
+    </Metadata>
+    <NoDataValue>-9999</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <Histograms>
+      <HistItem>
+        <HistMin>146</HistMin>
+        <HistMax>228</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>1010|72|66|73|78|101|2360|161|152|146|162|149|3742|137|124|101|113|117|2519|193|213|222|245|250|2897|478|232|217|238|220|227|287|183|176|173|169|163|272|199|190|216|212|190|228|179|191|181|188|209|209|271|254|250|265|270|262|336|284|248|275|260|244|430|353|383|371|379|403|1687|642|480|493|465|482|1082|729|701|737|799|864|953|3500|366|375|384|411|403|3901|441|446|433|434|456|1606|555|539|517|530|516|987|533|457|489|433|436|419|374|197|216|212|219|203|219|172|183|157|161|148|197|152|158|136|154|135|166|167|129|131|143|141|163|342|221|209|213|224|214|922|202|179|156|173|172|166|146|130|143|136|136|169|183|143|141|137|141|157|270|174|166|155|182|171|864|253|236|235|222|249|901|253|265|262|240|242|271|267|254|240|242|247|259|2309|517|519|484|455|466|3996|342|327|326|307|307|3334|329|331|328|316|331|4023|685|646|637|601|614|782|6685|605|566|507|441|402|538|281|252|241|231|196|473|210|214|192|174|199|1175|413|389|364|329|308|269|2085|508|400|317|227|139|269|146|113|104|83|53|188|78|71|53|44|38|526|32|30|15|25|23|122</HistCounts>
+      </HistItem>
+    </Histograms>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">Terrain (1).Terrain (1).Superficie10.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="636" RasterYSize="400" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="636" ySize="400" />
+      <DstRect xOff="0" yOff="0" xSize="636" ySize="400" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>

@@ -1,0 +1,16 @@
+<VRTDataset rasterXSize="1588" rasterYSize="997">
+  <SRS dataAxisToSRSAxisMapping="1,2">LOCAL_CS["SIRGAS-Chile.UTM-18S"]</SRS>
+  <GeoTransform>  6.8503495719873381e+05,  1.0000000474974513e-03,  0.0000000000000000e+00,  5.5069165477147633e+06,  0.0000000000000000e+00, -1.0000000474974513e-03</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <NoDataValue>3.4028234663852886e+38</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\HP\Desktop\Uandes\10mo_semestre\01-PIH\Caso-2-PIH\Pilmaiquen\terreno_2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1588" RasterYSize="997" DataType="Float32" BlockXSize="1588" BlockYSize="100" />
+      <SrcRect xOff="0" yOff="0" xSize="1588" ySize="997" />
+      <DstRect xOff="0" yOff="0" xSize="1588" ySize="997" />
+      <NODATA>3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
