@@ -110,10 +110,66 @@
 \tableofcontents % Genera el índice automáticamente
 \newpage
 \section{Introducción}
-\subsection{Objetivo}
+
+El presente informe expone el diseño de una obra de captación y una barrera de derivación destinadas a abastecer una planta de agua potable mediante la captación controlada de un caudal de 10 m³/s proveniente del río Pilmaiquén. El objetivo principal es desarrollar una infraestructura capaz de garantizar un flujo continuo, estable y seguro, incluso bajo condiciones de crecida, manteniendo una operación eficiente y confiable.
+
+El estudio considera el análisis hidrológico e hidráulico del río en el sector de la bocatoma, así como la evaluación geotécnica del terreno, compuesto principalmente por depósitos fluviales de gravas, gravillas y arenas de baja compactación. Estos antecedentes fueron la base para definir los criterios de diseño estructural e hidráulico de la obra, asegurando su estabilidad y desempeño frente a las solicitaciones de operación y eventos extremos.
+
+El diseño contempla una barrera mixta, conformada por concreto armado en la zona donde se ubican las compuertas para resistir mayores esfuerzos hidráulicos y material de tierra compactada en los sectores restantes, con el fin de optimizar recursos y adaptarse a las condiciones topográficas del sitio. La estructura incluye cuatro compuertas de 5 metros de ancho y 8 metros de altura, separadas por machones de 1 metro, que permiten un control eficiente del caudal y una respuesta adecuada frente a crecidas de hasta 500 años de período de retorno.
+
+El desarrollo de este informe presenta los criterios adoptados, los procedimientos de cálculo y los resultados obtenidos, los cuales sustentan la propuesta de diseño final de la obra. Este trabajo busca aportar una solución técnicamente sólida y ambientalmente compatible, que permita aprovechar de manera eficiente los recursos hídricos del río Pilmaiquén garantizando su operación segura y sostenida en el tiempo.
+
+\newpage
+\section{Objetivos y Alcance del Proyecto}
+
+\subsection{Objetivo General}
+
+Diseñar la obra de captación y la barrera de derivación destinadas a una planta de agua potable con un caudal de diseño de 10 m³/s, garantizando una operación segura, continua y eficiente bajo distintas condiciones hidráulicas y estructurales.
+
+\subsection{Objetivos Específicos}
+
+\begin{itemize}
+    \item Analizar el régimen hidrológico del río Pilmaiquén en la zona de emplazamiento, considerando caudales de diseño, operación y crecida para distintos períodos de retorno.
+    \item Determinar la configuración óptima de la obra de toma y la barrera de derivación, asegurando condiciones adecuadas de captación, sedimentación y control de caudales.
+    \item Modelar hidráulicamente el comportamiento del flujo mediante el software HEC-RAS para evaluar la respuesta de la estructura frente a condiciones normales y extremas.
+    \item Definir el área mínima del túnel de conducción, considerando la capacidad hidráulica necesaria y las condiciones estructurales del macizo rocoso.
+    \item Evaluar las condiciones geotécnicas del sitio para proponer una solución estructural estable y compatible con los materiales existentes.
+\end{itemize}
+
+\subsection{Alcance del Proyecto}
+
+El presente proyecto abarca el análisis, diseño y dimensionamiento de los componentes principales de la obra de captación y su infraestructura asociada. Esto incluye el estudio hidrológico e hidráulico del río Pilmaiquén, la definición del emplazamiento del muro y la bocatoma, el diseño de las compuertas, la reja de captación, el túnel de conducción y la barrera mixta de concreto y tierra.  
+Asimismo, se incorporan los criterios de diseño asociados a las crecidas de diseño y verificación correspondientes a una obra de Categoría A, garantizando la funcionalidad y estabilidad del sistema ante condiciones de operación y eventos extremos.
+
 \newpage
 \section{Marco Teórico}
 
+El análisis hidráulico de una obra de captación con compuertas requiere determinar el comportamiento del flujo bajo distintas condiciones de operación y crecida. Entre los parámetros fundamentales se encuentra la altura crítica del flujo, representada por \( B_c \), la cual permite establecer la condición de energía mínima en la que el régimen pasa de subcrítico a supercrítico. Este parámetro es clave para el dimensionamiento y la verificación de las compuertas, ya que asegura una operación estable y controlada del sistema de derivación.
+
+\subsection{Determinación de la altura crítica}
+
+La altura crítica del flujo (\( B_c \)) se determina a partir de la relación entre el caudal total, la gravedad y la geometría del canal o estructura. La expresión utilizada para su cálculo es:
+
+\[
+B_c = \frac{3}{2 \sqrt[3]{g}} \left( \frac{Q}{b} \right)^{\tfrac{2}{3}}
+\]
+
+donde:
+
+\begin{itemize}
+    \item \( B_c \): altura crítica del flujo (m),
+    \item \( g \): aceleración de gravedad (9,81 m/s²),
+    \item \( Q \): caudal que atraviesa las compuertas (m³/s),
+    \item \( b \): ancho total efectivo de paso o suma de los anchos de las compuertas abiertas (m).
+\end{itemize}
+
+Esta ecuación proviene de la condición de energía específica mínima en canales de sección rectangular. En este punto, la profundidad del flujo (\( B_c \)) se asocia al caudal que puede circular por la compuerta con el menor valor posible de energía específica, garantizando un régimen estable y evitando fenómenos como la formación de resaltes hidráulicos o pérdida de control aguas abajo.
+
+\subsection{Crecidas de diseño y condiciones de operación}
+
+De acuerdo con la normativa hidráulica nacional vigente para obras de captación, evacuación y desagüe particularmente los criterios utilizados por la Dirección General de Aguas (DGA) y las recomendaciones del Manual de Diseño de Obras Hidráulicas, las estructuras se clasifican según su altura y función hidráulica. En este caso, la barrera analizada corresponde a una estructura de \textit{Categoría A}, dado que presenta una altura superior a 5\,m e inferior a 15\,m. Para este tipo de obras, se establecen dos eventos característicos de cálculo: una crecida de diseño con período de retorno de 250 años, utilizada para el dimensionamiento hidráulico y estructural ordinario, y una crecida de verificación con período de retorno de 500 años, destinada a evaluar el comportamiento de la obra frente a condiciones extremas y garantizar su estabilidad global.
+
+El análisis hidráulico se desarrolló considerando dos configuraciones de operación de las compuertas. En la condición de diseño, se asumió que un 25\,\% de las compuertas permanece cerrada mientras el resto opera normalmente, representando la situación típica de regulación del caudal derivado hacia la planta. En la condición de verificación, en cambio, se consideró la apertura total de las compuertas, lo que permite evacuar el caudal máximo posible durante un evento extraordinario y evitar el sobrepaso del muro. La comparación de ambos escenarios permite confirmar que la obra opera en régimen estable y seguro bajo condiciones normales y de crecida, cumpliendo con las exigencias establecidas para obras hidráulicas de esta categoría.
 
 
 \newpage
@@ -130,6 +186,7 @@ Para poder obtener el coeficiente de Manning, se utilizaron los coeficientes dad
         \textit{Coeur d'Alene River near Prichard, Idaho} & 0.032 \\\hline
     \end{tabular}
 \end{table}
+
 \section{Diseño de bocatoma}
 El diseño de la obra de toma es una parte importante dentro del proyecto, ya que se  encarga de permitir el ingreso controlado del caudal desde el río hacia el túnel de conducción. La bocatoma capta 10 m³/s mediante una compuerta lateral.
 
@@ -146,6 +203,64 @@ Anterior a la compuerta se ubica la reja de protección, la cual fue diseñada c
 
 \newpage
 \section{Resultados}
+
+
+A partir de los procedimientos descritos en las secciones anteriores, se obtuvieron los principales resultados hidráulicos y geométricos de la obra de captación y su sistema de compuertas. El análisis consideró las condiciones de diseño y verificación establecidas para una obra de Categoría A, según los períodos de retorno definidos de 250 y 500 años, respectivamente.
+
+\subsection{Altura crítica del flujo}
+
+Aplicando la expresión para la altura crítica del flujo presentada en el marco teórico, se determinaron los valores correspondientes a las condiciones de diseño (con un 25\% de compuertas cerradas) y de verificación (todas las compuertas abiertas). Los resultados se resumen en la Tabla~\ref{tab:bcresultados}.
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lcc}
+\hline
+Condición de operación & Configuración de compuertas & Altura crítica \( B_c \) [m] \\
+\hline
+Diseño & 25\% cerradas & 7,4 \\
+Verificación & Todas abiertas & 5,6 \\
+\hline
+\end{tabular}
+\caption{Alturas críticas del flujo determinadas para las condiciones de diseño y verificación.}
+\label{tab:bcresultados}
+\end{table}
+
+El criterio de diseño es el que controla el dimensionamiento de las compuertas, ya que presenta la mayor altura crítica. En este caso, la altura de diseño considerada fue de \( B_c = 7{,}4\,\text{m} \), valor que ya incorpora una \textit{revancha} de 1\,m como margen de seguridad sobre el nivel crítico calculado. Este margen permite absorber eventuales incrementos en el nivel del agua debido a turbulencias, obstrucciones parciales o variaciones locales del flujo. Al adoptar finalmente una altura total de compuerta de 8\,m, se obtiene una revancha efectiva de aproximadamente 1{,}6\,m, garantizando la operación segura y estable de la estructura bajo las condiciones más exigentes de diseño.
+
+\subsection{Muro de barrera}
+
+La barrera de derivación presenta una longitud total de 130\,m, medida a lo largo del eje del muro. En la ribera derecha se ubica el tramo construido en concreto armado, que corresponde al módulo donde se disponen las compuertas y los elementos de control hidráulico. El resto de la estructura, hacia la ribera izquierda, se ejecutará en material de tierra compactada, conformando una barrera mixta que combina resistencia estructural y economía constructiva.
+
+El tramo de concreto en ribera derecha tiene una longitud aproximada de 30\,m, suficiente para alojar las cuatro compuertas, los machones intermedios, los estribos laterales y los muros de encauce aguas arriba y aguas abajo. Por su parte, el tramo de tierra compactada abarca los 100\,m restantes, adaptándose a la topografía natural del terreno y asegurando la continuidad del cierre hidráulico.
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lc}
+\hline
+\textbf{Parámetro} & \textbf{Valor} \\
+\hline
+Longitud total del muro & 130\,m \\
+Longitud del módulo de compuertas (concreto) & 30\,m \\
+Longitud del tramo de tierra compactada & 100\,m \\
+Altura máxima del muro en su punto más bajo & 14\,m \\
+Altura del módulo de compuertas & 8\,m (según criterio de diseño controlador) \\
+Talud aguas arriba & 3H:1V \\
+Talud aguas abajo & 2{,}5H:1V \\
+\hline
+\end{tabular}
+\caption{Dimensiones principales del muro de la barrera.}
+\label{tab:dimensiones_muro}
+\end{table}
+
+Los taludes adoptados para el tramo de tierra compactada responden a criterios de estabilidad geotécnica, facilidad constructiva y control de filtraciones. El talud aguas arriba se definió con una pendiente de 3H:1V, lo que proporciona un equilibrio adecuado entre estabilidad y control del gradiente hidráulico durante la operación del embalse. Esta inclinación permite además disponer de una superficie suficientemente suave para aplicar revestimientos o enrocados de protección frente a la erosión o el oleaje.
+
+Por su parte, el talud aguas abajo se estableció con una pendiente algo más empinada, de 2{,}5H:1V, dado que no está sometido a presiones hidrostáticas y su estabilidad depende principalmente del peso propio del material. Esta configuración reduce el volumen total de material de relleno sin comprometer la seguridad de la estructura, manteniendo factores de seguridad típicos superiores a 1{,}5 frente al deslizamiento. Ambas pendientes son coherentes con los valores recomendados para diques de materiales sueltos con alturas del orden de 15\,m y materiales de tipo grava-arcillosa o limo-arenosa compactada.
+
+A modo de resumen, la combinación de un módulo de compuertas en concreto armado con un tramo de tierra compactada permite optimizar los costos constructivos y operativos de la barrera, asegurando al mismo tiempo la estabilidad hidráulica y estructural requerida para una obra de captación de esta naturaleza.
+
+En este caso seran 4 compuertas de 5 m de ancho y 8 m de alto cada una, separadas por machones de 1 m, lo que da un ancho total efectivo de paso de 20 m. Ademas, el muro tendra un largo total de 130 m, de los cuales 30 m corresponderan al modulo de compuertas en concreto y 100 m al tramo de tierra compactada.
+
+
 \subsection{Dimensiones de la bocatoma}
 \begin{table}
     \centering
