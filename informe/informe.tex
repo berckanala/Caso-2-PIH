@@ -130,8 +130,73 @@ Para poder obtener el coeficiente de Manning, se utilizaron los coeficientes dad
         \textit{Coeur d'Alene River near Prichard, Idaho} & 0.032 \\\hline
     \end{tabular}
 \end{table}
+\section{Diseño de bocatoma}
+El diseño de la obra de toma es una parte importante dentro del proyecto, ya que se  encarga de permitir el ingreso controlado del caudal desde el río hacia el túnel de conducción. La bocatoma capta 10 m³/s mediante una compuerta lateral.
+
+En términos generales, la obra de toma se compone de tres elementos principales: la reja frontal, que cumple una función de protección; la compuerta de control, que regula el ingreso de agua y permite el cierre en caso de mantenimiento o emergencias; y el túnel de conducción, que transporta el caudal hacia la conducción principal.
+
+La toma se dispone lateralmente al cauce principal, lo que permite reducir la velocidad de aproximación y minimizar el arrastre de sedimentos. La disposición lateral facilita además el mantenimiento y limpieza, ya que el flujo que ingresa a la toma es más controlado que en una entrada frontal.
+
+En la base de la estructura se incorpora un pequeño canal de aproximación que suaviza la transición entre el flujo libre del río y el flujo dentro del túnel, este sector fue diseñado de modo que el flujo mantenga un régimen subcrítico, lo que reduce las pérdidas por turbulencia y evita cavitación.
+
+Anterior a la compuerta se ubica la reja de protección, la cual fue diseñada considerando bajas velocidades de acercamiento para evitar el arrastre de sólidos y minimizar las pérdidas de carga. El ángulo de inclinación de la reja con respecto al flujo es un factor importante, ya que facilita la autolimpieza y reduce el impacto directo del flujo, lo que prolonga la vida útil y disminuye el riesgo de obstrucción. En este caso, la inclinación elegida permite que los residuos se desplacen hacia la superficie del río, donde pueden ser retirados manual o mecánicamente. 
+
+
+
+
 \newpage
 \section{Resultados}
+\subsection{Dimensiones de la bocatoma}
+\begin{table}
+    \centering
+    \begin{tabular}{c c}
+        \textbf{Parámetro} & \textbf{Valor} \\
+        \hline
+        Caudal de diseño & 10 m$^3$/s \\ 
+        Ancho de la reja & 4.0 m \\
+        Velocidad en el túnel & 1.00 m/s \\
+        Porosidad de la reja & 0.6 \\
+        Inclinación de la reja vertical & 35 ° \\ \hline
+    \end{tabular}
+    \caption{Dimensiones y características principales de la bocatoma}
+\end{table}
+
+El área efectiva necesaria para el paso del caudal se determina considerando la velocidad de acercamiento y la porosidad de la reja.
+De acuerdo con la siguiente ecuación:
+\begin{equation}
+    Q = V_a \cdot B \cdot H \cdot \phi
+\end{equation}
+
+Reemplazando valores y despejando la alturo:
+\begin{equation}
+    H = \frac{Q}{V_a \cdot B \cdot \phi} = \frac{10}{1.00 \cdot 4.0 \cdot 0.6} = 4.17 m
+\end{equation}
+
+Por lo tanto, la altura útil de la reja se estima en 4,2 metros, lo que representa la superficie necesaria para permitir el paso del caudal de diseño sin exceder la velocidad de entrada adoptada.
+
+Esta altura permite un flujo controlado y garantiza que el nivel del agua en la cámara de captación se mantenga dentro de los márgenes operativos previstos.
+
+\begin{table}
+    \centering
+    \begin{tabular}{c c}
+        \textbf{Parámetro} & \textbf{Valor} \\
+        \hline
+        Ancho de la reja & 4.0 m \\
+        Altura útil de la reja & 4.2 m \\ 
+        Espacio entre barras de la reja & 0.1 m \\
+        Espesor de las barras & 0.02 m \\
+        Ángulo de inclinación & 35 ° \\
+        Pérdida de carga en la reja & 0.15 m \\ \hline
+    \end{tabular}
+    \caption{Dimensiones finales de la bocatoma}
+\end{table}
+
+El área frontal total de la reja es de 16 m², con un área libre efectiva de 9,6 m² considerando la porosidad del 60\%.
+El material propuesto es acero galvanizado de alta resistencia a la corrosión, montado sobre un marco de hormigón armado empotrado en la estructura de la toma.
+
+
+
+
 Con todos los datos se procedió a ocupar el Software HEC-RAS, pero primero se ocupó los datos topográficos del terreno, para obtener los cortes transversales del río y de esta forma analizar de mejor manera el terreno. Luego, se subió esta información a HEC-RAS obteniendo lo siguiente:
 \begin{figure}[h!]
     \centering

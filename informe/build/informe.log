@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.16)  21 OCT 2025 20:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.16)  22 OCT 2025 17:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -699,7 +699,7 @@ Package hyperref Info: Link coloring ON on input line 61.
 \openout4 = `informe.out'.
 
 \c@lstlisting=\count336
-<LOGO_UNIVERSIDAD.jpg, id=34, 682.9515pt x 247.6452pt>
+<LOGO_UNIVERSIDAD.jpg, id=42, 682.9515pt x 247.6452pt>
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
 Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 72.
@@ -740,94 +740,103 @@ Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 119.
  [4]
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 133.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 147.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
  [5]
 
 pdfTeX warning: pdflatex.exe (file ./imagenes/rio_sin_estruc.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<imagenes/rio_sin_estruc.pdf, id=71, 794.97pt x 614.295pt>
+<imagenes/rio_sin_estruc.pdf, id=82, 794.97pt x 614.295pt>
 File: imagenes/rio_sin_estruc.pdf Graphic file (type pdf)
 <use imagenes/rio_sin_estruc.pdf>
-Package pdftex.def Info: imagenes/rio_sin_estruc.pdf  used on input line 138.
+Package pdftex.def Info: imagenes/rio_sin_estruc.pdf  used on input line 203.
 (pdftex.def)             Requested size: 266.14978pt x 205.66121pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 
 pdfTeX warning: pdflatex.exe (file ./imagenes/perfil_250_sb.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<imagenes/perfil_250_sb.pdf, id=72, 794.97pt x 614.295pt>
+<imagenes/perfil_250_sb.pdf, id=83, 794.97pt x 614.295pt>
 File: imagenes/perfil_250_sb.pdf Graphic file (type pdf)
 <use imagenes/perfil_250_sb.pdf>
-Package pdftex.def Info: imagenes/perfil_250_sb.pdf  used on input line 159.
+Package pdftex.def Info: imagenes/perfil_250_sb.pdf  used on input line 224.
 (pdftex.def)             Requested size: 266.14978pt x 205.66121pt.
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 162.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 227.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
 [6
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.162 
-      
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.162 
-       <./imagenes/rio_sin_estruc.pdf>]
+l.227 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.227 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.227 
+      ]
 
 pdfTeX warning: pdflatex.exe (file ./imagenes/perfil_500_sb.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <imagenes/perfil_500_sb.pdf, id=98, 794.97pt x 614.295pt>
 File: imagenes/perfil_500_sb.pdf Graphic file (type pdf)
 <use imagenes/perfil_500_sb.pdf>
-Package pdftex.def Info: imagenes/perfil_500_sb.pdf  used on input line 165.
+Package pdftex.def Info: imagenes/perfil_500_sb.pdf  used on input line 230.
 (pdftex.def)             Requested size: 266.14978pt x 205.66121pt.
-<imagenes/muro.pdf, id=99, 794.97pt x 614.295pt>
-File: imagenes/muro.pdf Graphic file (type pdf)
-<use imagenes/muro.pdf>
-Package pdftex.def Info: imagenes/muro.pdf  used on input line 173.
-(pdftex.def)             Requested size: 354.86412pt x 274.21806pt.
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 176.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 233.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
 [7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.233 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.176 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.176 
-       <./imagenes/perfil_250_sb.pdf> <./imagenes/perfil_500_sb.pdf>]
+l.233 
+       <./imagenes/rio_sin_estruc.pdf> <./imagenes/perfil_250_sb.pdf>]
+<imagenes/muro.pdf, id=139, 794.97pt x 614.295pt>
+File: imagenes/muro.pdf Graphic file (type pdf)
+<use imagenes/muro.pdf>
+Package pdftex.def Info: imagenes/muro.pdf  used on input line 238.
+(pdftex.def)             Requested size: 354.86412pt x 274.21806pt.
+
 
 pdfTeX warning: pdflatex.exe (file ./imagenes/rio.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <imagenes/rio.pdf, id=140, 794.97pt x 614.295pt>
 File: imagenes/rio.pdf Graphic file (type pdf)
 <use imagenes/rio.pdf>
-Package pdftex.def Info: imagenes/rio.pdf  used on input line 182.
+Package pdftex.def Info: imagenes/rio.pdf  used on input line 247.
 (pdftex.def)             Requested size: 266.14978pt x 205.66121pt.
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 187.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 249.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
 [8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.249 \end{figure}
+                  
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.187 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.187 
-       <./imagenes/muro.pdf> <./imagenes/rio.pdf>]
+l.249 \end{figure}
+                   <./imagenes/perfil_500_sb.pdf> <./imagenes/muro.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./imagenes/perfil_250_cb.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <imagenes/perfil_250_cb.pdf, id=185, 794.97pt x 614.295pt>
 File: imagenes/perfil_250_cb.pdf Graphic file (type pdf)
 <use imagenes/perfil_250_cb.pdf>
-Package pdftex.def Info: imagenes/perfil_250_cb.pdf  used on input line 190.
+Package pdftex.def Info: imagenes/perfil_250_cb.pdf  used on input line 255.
 (pdftex.def)             Requested size: 266.14978pt x 205.66121pt.
 
 
@@ -835,53 +844,63 @@ pdfTeX warning: pdflatex.exe (file ./imagenes/corte_250_cb.pdf): PDF inclusion: 
 <imagenes/corte_250_cb.pdf, id=186, 794.97pt x 614.295pt>
 File: imagenes/corte_250_cb.pdf Graphic file (type pdf)
 <use imagenes/corte_250_cb.pdf>
-Package pdftex.def Info: imagenes/corte_250_cb.pdf  used on input line 196.
-(pdftex.def)             Requested size: 266.14978pt x 205.66121pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./imagenes/perfil_500_cb.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<imagenes/perfil_500_cb.pdf, id=187, 794.97pt x 614.295pt>
-File: imagenes/perfil_500_cb.pdf Graphic file (type pdf)
-<use imagenes/perfil_500_cb.pdf>
-Package pdftex.def Info: imagenes/perfil_500_cb.pdf  used on input line 202.
+Package pdftex.def Info: imagenes/corte_250_cb.pdf  used on input line 261.
 (pdftex.def)             Requested size: 266.14978pt x 205.66121pt.
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 205.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 264.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
 [9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.264 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.205 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.205 
-       <./imagenes/perfil_250_cb.pdf> <./imagenes/corte_250_cb.pdf>]
+l.264 
+       <./imagenes/rio.pdf> <./imagenes/perfil_250_cb.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./imagenes/perfil_500_cb.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<imagenes/perfil_500_cb.pdf, id=227, 794.97pt x 614.295pt>
+File: imagenes/perfil_500_cb.pdf Graphic file (type pdf)
+<use imagenes/perfil_500_cb.pdf>
+Package pdftex.def Info: imagenes/perfil_500_cb.pdf  used on input line 267.
+(pdftex.def)             Requested size: 266.14978pt x 205.66121pt.
+
 
 pdfTeX warning: pdflatex.exe (file ./imagenes/corte_500_cb.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <imagenes/corte_500_cb.pdf, id=228, 794.97pt x 614.295pt>
 File: imagenes/corte_500_cb.pdf Graphic file (type pdf)
 <use imagenes/corte_500_cb.pdf>
-Package pdftex.def Info: imagenes/corte_500_cb.pdf  used on input line 208.
+Package pdftex.def Info: imagenes/corte_500_cb.pdf  used on input line 273.
 (pdftex.def)             Requested size: 266.14978pt x 205.66121pt.
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 213.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 276.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
 [10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.276 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.213 \end{document}
-                    
+l.276 
+       <./imagenes/corte_250_cb.pdf> <./imagenes/perfil_500_cb.pdf>]
+File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
+<use LOGO_UNIVERSIDAD.jpg>
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 278.
+(pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
+ [11
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.213 \end{document}
-                     <./imagenes/perfil_500_cb.pdf> <./imagenes/corte_500_cb.pdf>] (C:\Users\HP\Desktop\Uandes\10mo_semestre\01-PIH\Caso-2-PIH\informe\build\informe.aux
+l.278 \end{document}
+                     <./imagenes/corte_500_cb.pdf>] (C:\Users\HP\Desktop\Uandes\10mo_semestre\01-PIH\Caso-2-PIH\informe\build\informe.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -890,20 +909,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `informe.out' has not changed.
-(rerunfilecheck)             Checksum: E234F07CC86BAC83C0ABCCA140EF843C;807.
+(rerunfilecheck)             Checksum: 81A8D0A1B3F4A24988AEB1632D4143F9;1145.
  ) 
 Here is how much of TeX's memory you used:
- 24247 strings out of 474485
- 446992 string characters out of 5745150
- 1931542 words of memory out of 5000000
- 46097 multiletter control sequences out of 15000+600000
- 560993 words of font info for 46 fonts, out of 8000000 for 9000
+ 24268 strings out of 474485
+ 447275 string characters out of 5745150
+ 1939542 words of memory out of 5000000
+ 46110 multiletter control sequences out of 15000+600000
+ 561328 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,16n,93p,641b,538s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on C:\Users\HP\Desktop\Uandes\10mo_semestre\01-PIH\Caso-2-PIH\informe\build\informe.pdf (11 pages, 3429231 bytes).
+ 84i,16n,93p,680b,538s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\HP\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on C:\Users\HP\Desktop\Uandes\10mo_semestre\01-PIH\Caso-2-PIH\informe\build\informe.pdf (12 pages, 3465722 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 340 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
+ 135 words of extra memory for PDF output out of 10000 (max. 10000000)
 
