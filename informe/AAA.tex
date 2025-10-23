@@ -104,7 +104,17 @@
 %  INDICE
 %----------------------------------------------------------------------------------------
 \newpage
-\section{Resumen ejecutivo}
+\section*{Resumen Ejecutivo}
+
+El presente informe describe el diseño de una obra de captación y una barrera de derivación en el río Pilmaiquén, cuyo propósito es abastecer una planta de agua potable mediante la captación controlada de un caudal de 10\,m³/s. El proyecto considera criterios hidráulicos, estructurales y geotécnicos que aseguran una operación continua, segura y eficiente frente a condiciones normales y de crecida.
+
+La obra propuesta se compone de una barrera mixta de 130\,m de longitud, constituida por un módulo de compuertas en concreto armado de 30\,m y un tramo de tierra compactada de 100\,m. El sistema incorpora cuatro compuertas de 5\,m de ancho y 8\,m de alto, separadas por machones de 1\,m, que permiten un control eficaz del caudal y una respuesta estable ante crecidas con períodos de retorno de 250 y 500 años.
+
+El análisis hidráulico se desarrolló mediante modelaciones en el software HEC-RAS, utilizando información topográfica del cauce y considerando los caudales asociados a los distintos escenarios de operación. Los resultados demostraron que la estructura mantiene un comportamiento estable, evitando el sobrepaso y garantizando el control del flujo en todas las condiciones analizadas. La altura crítica determinada (\(B_c = 7{,}4\,\text{m}\)) fue el parámetro controlador para el dimensionamiento de las compuertas, a las que se adicionó una revancha de seguridad.
+
+Desde el punto de vista geotécnico, se establecieron taludes de 3H:1V aguas arriba y 2{,}5H:1V aguas abajo, coherentes con los materiales presentes en el sitio y con factores de seguridad superiores a los mínimos exigidos. La solución mixta adoptada combina durabilidad y economía, aprovechando las ventajas del concreto armado en la zona de mayor solicitación y del material compactado en los sectores restantes.
+
+En síntesis, la propuesta desarrollada cumple con los criterios técnicos y normativos para obras de \textit{Categoría A}, proporcionando una infraestructura robusta, eficiente y ambientalmente compatible, que asegura el aprovechamiento sostenible de los recursos hídricos del río Pilmaiquén.
 
 \newpage
 \tableofcontents % Genera el índice automáticamente
@@ -138,8 +148,7 @@ Diseñar la obra de captación y la barrera de derivación destinadas a una plan
 
 \subsection{Alcance del Proyecto}
 
-El presente proyecto abarca el análisis, diseño y dimensionamiento de los componentes principales de la obra de captación y su infraestructura asociada. Esto incluye el estudio hidrológico e hidráulico del río Pilmaiquén, la definición del emplazamiento del muro y la bocatoma, el diseño de las compuertas, la reja de captación, el túnel de conducción y la barrera mixta de concreto y tierra.  
-Asimismo, se incorporan los criterios de diseño asociados a las crecidas de diseño y verificación correspondientes a una obra de Categoría A, garantizando la funcionalidad y estabilidad del sistema ante condiciones de operación y eventos extremos.
+El presente proyecto abarca el análisis, diseño y dimensionamiento de los componentes principales de la obra de captación y su infraestructura asociada. Esto incluye el estudio hidrológico e hidráulico del río Pilmaiquén, la definición del emplazamiento del muro y la bocatoma, el diseño de las compuertas, la reja de captación, el túnel de conducción y la barrera mixta de concreto y tierra. Asimismo, se incorporan los criterios de diseño asociados a las crecidas de diseño y verificación correspondientes a una obra de Categoría A, garantizando la funcionalidad y estabilidad del sistema ante condiciones de operación y eventos extremos.
 
 \newpage
 \section{Marco Teórico}
@@ -171,11 +180,13 @@ De acuerdo con la normativa hidráulica nacional vigente para obras de captació
 
 El análisis hidráulico se desarrolló considerando dos configuraciones de operación de las compuertas. En la condición de diseño, se asumió que un 25\,\% de las compuertas permanece cerrada mientras el resto opera normalmente, representando la situación típica de regulación del caudal derivado hacia la planta. En la condición de verificación, en cambio, se consideró la apertura total de las compuertas, lo que permite evacuar el caudal máximo posible durante un evento extraordinario y evitar el sobrepaso del muro. La comparación de ambos escenarios permite confirmar que la obra opera en régimen estable y seguro bajo condiciones normales y de crecida, cumpliendo con las exigencias establecidas para obras hidráulicas de esta categoría.
 
-
 \newpage
 \section{Desarrollo}
+
 \subsection{Coeficiente de Manning}
-Para poder obtener el coeficiente de Manning, se utilizaron los coeficientes dados en el libro Roughness Characteristics of Natural Channels-Barnes. En el cual, se encuentran fotografías de distintos tipos de cauces, y se les asigna un coeficiente de rugosidad. A continuación, se muestran las ubicaciones que más se asemejan al cauce del río Pilmaiquén junto con su respectivo coeficiente de Manning.
+
+Para poder obtener el coeficiente de Manning, se utilizaron los coeficientes dados en el libro \textit{Roughness Characteristics of Natural Channels} (Barnes). En él se encuentran fotografías de distintos tipos de cauces y se les asigna un coeficiente de rugosidad. A continuación, se muestran las ubicaciones que más se asemejan al cauce del río Pilmaiquén junto con su respectivo coeficiente de Manning.
+
 \begin{table}[h!]
     \centering
     \begin{tabular}{c c}
@@ -188,22 +199,19 @@ Para poder obtener el coeficiente de Manning, se utilizaron los coeficientes dad
 \end{table}
 
 \section{Diseño de bocatoma}
-El diseño de la obra de toma es una parte importante dentro del proyecto, ya que se  encarga de permitir el ingreso controlado del caudal desde el río hacia el túnel de conducción. La bocatoma capta 10 m³/s mediante una compuerta lateral.
+
+El diseño de la obra de toma es una parte importante dentro del proyecto, ya que se encarga de permitir el ingreso controlado del caudal desde el río hacia el túnel de conducción. La bocatoma capta 10 m³/s mediante una compuerta lateral.
 
 En términos generales, la obra de toma se compone de tres elementos principales: la reja frontal, que cumple una función de protección; la compuerta de control, que regula el ingreso de agua y permite el cierre en caso de mantenimiento o emergencias; y el túnel de conducción, que transporta el caudal hacia la conducción principal.
 
 La toma se dispone lateralmente al cauce principal, lo que permite reducir la velocidad de aproximación y minimizar el arrastre de sedimentos. La disposición lateral facilita además el mantenimiento y limpieza, ya que el flujo que ingresa a la toma es más controlado que en una entrada frontal.
 
-En la base de la estructura se incorpora un pequeño canal de aproximación que suaviza la transición entre el flujo libre del río y el flujo dentro del túnel, este sector fue diseñado de modo que el flujo mantenga un régimen subcrítico, lo que reduce las pérdidas por turbulencia y evita cavitación.
+En la base de la estructura se incorpora un pequeño canal de aproximación que suaviza la transición entre el flujo libre del río y el flujo dentro del túnel; este sector fue diseñado de modo que el flujo mantenga un régimen subcrítico, lo que reduce las pérdidas por turbulencia y evita cavitación.
 
 Anterior a la compuerta se ubica la reja de protección, la cual fue diseñada considerando bajas velocidades de acercamiento para evitar el arrastre de sólidos y minimizar las pérdidas de carga. El ángulo de inclinación de la reja con respecto al flujo es un factor importante, ya que facilita la autolimpieza y reduce el impacto directo del flujo, lo que prolonga la vida útil y disminuye el riesgo de obstrucción. En este caso, la inclinación elegida permite que los residuos se desplacen hacia la superficie del río, donde pueden ser retirados manual o mecánicamente. 
 
-
-
-
 \newpage
 \section{Resultados}
-
 
 A partir de los procedimientos descritos en las secciones anteriores, se obtuvieron los principales resultados hidráulicos y geométricos de la obra de captación y su sistema de compuertas. El análisis consideró las condiciones de diseño y verificación establecidas para una obra de Categoría A, según los períodos de retorno definidos de 250 y 500 años, respectivamente.
 
@@ -258,11 +266,11 @@ Por su parte, el talud aguas abajo se estableció con una pendiente algo más em
 
 A modo de resumen, la combinación de un módulo de compuertas en concreto armado con un tramo de tierra compactada permite optimizar los costos constructivos y operativos de la barrera, asegurando al mismo tiempo la estabilidad hidráulica y estructural requerida para una obra de captación de esta naturaleza.
 
-En este caso seran 4 compuertas de 5 m de ancho y 8 m de alto cada una, separadas por machones de 1 m, lo que da un ancho total efectivo de paso de 20 m. Ademas, el muro tendra un largo total de 130 m, de los cuales 30 m corresponderan al modulo de compuertas en concreto y 100 m al tramo de tierra compactada.
-
+En este caso serán 4 compuertas de 5 m de ancho y 8 m de alto cada una, separadas por machones de 1 m, lo que da un ancho total efectivo de paso de 20 m. Además, el muro tendrá un largo total de 130 m, de los cuales 30 m corresponderán al módulo de compuertas en concreto y 100 m al tramo de tierra compactada.
 
 \subsection{Dimensiones de la bocatoma}
-\begin{table}
+
+\begin{table}[h]
     \centering
     \begin{tabular}{c c}
         \textbf{Parámetro} & \textbf{Valor} \\
@@ -276,22 +284,19 @@ En este caso seran 4 compuertas de 5 m de ancho y 8 m de alto cada una, separada
     \caption{Dimensiones y características principales de la bocatoma}
 \end{table}
 
-El área efectiva necesaria para el paso del caudal se determina considerando la velocidad de acercamiento y la porosidad de la reja.
-De acuerdo con la siguiente ecuación:
+El área efectiva necesaria para el paso del caudal se determina considerando la velocidad de acercamiento y la porosidad de la reja. De acuerdo con la siguiente ecuación:
 \begin{equation}
     Q = V_a \cdot B \cdot H \cdot \phi
 \end{equation}
 
-Reemplazando valores y despejando la alturo:
+Reemplazando valores y despejando la altura:
 \begin{equation}
-    H = \frac{Q}{V_a \cdot B \cdot \phi} = \frac{10}{1.00 \cdot 4.0 \cdot 0.6} = 4.17 m
+    H = \frac{Q}{V_a \cdot B \cdot \phi} = \frac{10}{1.00 \cdot 4.0 \cdot 0.6} = 4.17 \ \text{m}
 \end{equation}
 
-Por lo tanto, la altura útil de la reja se estima en 4,2 metros, lo que representa la superficie necesaria para permitir el paso del caudal de diseño sin exceder la velocidad de entrada adoptada.
+Por lo tanto, la altura útil de la reja se estima en 4,2 metros, lo que representa la superficie necesaria para permitir el paso del caudal de diseño sin exceder la velocidad de entrada adoptada. Esta altura permite un flujo controlado y garantiza que el nivel del agua en la cámara de captación se mantenga dentro de los márgenes operativos previstos.
 
-Esta altura permite un flujo controlado y garantiza que el nivel del agua en la cámara de captación se mantenga dentro de los márgenes operativos previstos.
-
-\begin{table}
+\begin{table}[h]
     \centering
     \begin{tabular}{c c}
         \textbf{Parámetro} & \textbf{Valor} \\
@@ -306,20 +311,17 @@ Esta altura permite un flujo controlado y garantiza que el nivel del agua en la 
     \caption{Dimensiones finales de la bocatoma}
 \end{table}
 
-El área frontal total de la reja es de 16 m², con un área libre efectiva de 9,6 m² considerando la porosidad del 60\%.
-El material propuesto es acero galvanizado de alta resistencia a la corrosión, montado sobre un marco de hormigón armado empotrado en la estructura de la toma.
+El área frontal total de la reja es de 16 m$^2$, con un área libre efectiva de 9,6 m$^2$ considerando la porosidad del 60\%. El material propuesto es acero galvanizado de alta resistencia a la corrosión, montado sobre un marco de hormigón armado empotrado en la estructura de la toma.
 
+Con todos los datos se procedió a ocupar el software HEC-RAS, pero primero se ocuparon los datos topográficos del terreno para obtener los cortes transversales del río y analizar de mejor manera el terreno. Luego, se subió esta información a HEC-RAS, obteniendo lo siguiente:
 
-
-
-Con todos los datos se procedió a ocupar el Software HEC-RAS, pero primero se ocupó los datos topográficos del terreno, para obtener los cortes transversales del río y de esta forma analizar de mejor manera el terreno. Luego, se subió esta información a HEC-RAS obteniendo lo siguiente:
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.6\linewidth]{imagenes/rio_sin_estruc.pdf}
     \caption{Cortes transversales del río Pilmaiquén obtenidos en HEC-RAS}
 \end{figure}
 
-Antes de empezar a incorporar al software las bocatomas y el muro se corrió con los 2 caudales asociados los periodos de retorno de categoría:
+Antes de empezar a incorporar al software las bocatomas y el muro, se corrió con los dos caudales asociados a los periodos de retorno de la categoría:
 
 \begin{table}[h]
     \centering
@@ -354,16 +356,17 @@ Con los cálculos anteriormente hechos se puede empezar a dimensionar el muro co
     \caption{Muro con bocatomas incorporadas al cauce del río Pilmaiquén}
 \end{figure}
 
-En donde sería un muro mixto, desde los 100 metros hacia la ribera derecha del río sería de hormigón, mientras que la otra parte sería un terraplén de tierra compactada.
+En donde sería un muro mixto: desde los 100 metros hacia la ribera derecha del río sería de hormigón, mientras que la otra parte sería un terraplén de tierra compactada.
 
-Luego, ocupando la experiencia de Haber-Maas, se decidió poner el muro al principio de la primera curva, de esta manera la cantidad de sedimento que se va a tener que filtrar y contener será menor. Por lo que, la nueva vista de esta sección del río se verá de la siguiente manera:
+Luego, ocupando la experiencia de Haber-Maas, se decidió poner el muro al principio de la primera curva; de esta manera la cantidad de sedimento que se va a tener que filtrar y contener será menor. Por lo tanto, la nueva vista de esta sección del río se verá de la siguiente manera:
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\linewidth]{imagenes/rio.pdf}
     \caption{Cortes transversales del río Pilmaiquén con el muro y las bocatomas incorporadas}
 \end{figure}
 
-Una vez lista la geometría, se procedió a correr la simulación con los periodos de retorno anteriormente mencionados. Dando los siguientes resultados:
+Una vez lista la geometría, se procedió a correr la simulación con los periodos de retorno anteriormente mencionados, dando los siguientes resultados:
 
 \begin{figure}[H]
     \centering
@@ -388,6 +391,18 @@ Una vez lista la geometría, se procedió a correr la simulación con los period
     \includegraphics[width=0.6\linewidth]{imagenes/corte_500_cb.pdf}
     \caption{Corte transversal del río Pilmaiquén con muro y bocatomas para periodo de retorno de 500 años}
 \end{figure}
+
+\newpage
+\section{Conclusiones}
+
+El diseño desarrollado para la obra de captación y la barrera de derivación del río Pilmaiquén cumple con los objetivos hidráulicos, estructurales y operativos establecidos. Los resultados obtenidos demuestran que la propuesta permite derivar un caudal de 10 m³/s de forma segura, estable y controlada, asegurando la continuidad del servicio incluso bajo condiciones de crecida extrema.
+
+El análisis hidráulico, complementado con las simulaciones en HEC-RAS, evidenció que las condiciones de flujo se mantienen dentro de los márgenes de estabilidad previstos, tanto para la crecida de diseño (250 años) como para la de verificación (500 años). La adopción de una barrera mixta —con un módulo de compuertas en concreto armado y un tramo en tierra compactada— resultó ser la alternativa más eficiente, al equilibrar resistencia estructural, estabilidad geotécnica y economía constructiva.
+
+La altura crítica obtenida (\(B_c = 7{,}4\ \text{m}\)) determinó el dimensionamiento final de las compuertas, las cuales, con una altura de 8 m, incorporan la revancha necesaria para absorber variaciones del flujo y mantener un régimen estable. Asimismo, los taludes de 3H:1V aguas arriba y 2,5H:1V aguas abajo garantizan la estabilidad del terraplén ante las solicitaciones esperadas.
+
+En conclusión, la obra propuesta cumple los criterios técnicos y normativos aplicables a una estructura de \textit{Categoría A}, ofreciendo una solución robusta y funcional. El sistema de captación planteado aprovecha de manera eficiente los recursos hídricos del río Pilmaiquén, asegurando su operación segura y sostenible en el tiempo.
+
 
 
 \end{document}
