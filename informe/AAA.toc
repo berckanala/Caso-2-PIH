@@ -8,10 +8,9 @@
 \contentsline {subsection}{\numberline {3.1}Determinación de la altura crítica}{5}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Crecidas de diseño y condiciones de operación}{5}{subsection.3.2}%
 \contentsline {section}{\numberline {4}Desarrollo}{6}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Coeficiente de Manning}{6}{subsection.4.1}%
-\contentsline {section}{\numberline {5}Diseño de bocatoma}{6}{section.5}%
-\contentsline {section}{\numberline {6}Resultados}{7}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Altura crítica del flujo}{7}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Muro de barrera}{7}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Dimensiones de la bocatoma}{8}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Conclusiones}{14}{section.7}%
+\contentsline {subsection}{\numberline {4.1}Altura crítica del flujo}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Muro de barrera}{6}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Coeficiente de Manning}{7}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Diseño de bocatoma}{7}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Resultados}{9}{section.5}%
+\contentsline {section}{\numberline {6}Conclusiones}{14}{section.6}%
