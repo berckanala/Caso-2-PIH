@@ -1,0 +1,22 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{3}{section.1}%
+\contentsline {section}{\numberline {2}Objetivos y Alcance del Proyecto}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Objetivo General}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Objetivos Específicos}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Alcance del Proyecto}{4}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Marco Teórico}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Determinación de la altura crítica}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Crecidas de diseño y condiciones de operación}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Coeficiente de Manning}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Experiencia de Haber--Maas}{6}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Bocatomas}{6}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Desarrollo}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Altura crítica del flujo}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Muro de barrera}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Coeficiente de Manning}{8}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Diseño de bocatoma}{8}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Compuerta}{9}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Altura requerida sobre la cresta del vertedero}{9}{subsubsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.2}Dimensionamiento del túnel}{10}{subsubsection.4.5.2}%
+\contentsline {section}{\numberline {5}Resultados}{11}{section.5}%
+\contentsline {section}{\numberline {6}Conclusiones}{16}{section.6}%
