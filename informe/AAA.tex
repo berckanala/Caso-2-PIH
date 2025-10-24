@@ -180,11 +180,33 @@ De acuerdo con la normativa hidráulica nacional vigente para obras de captació
 
 El análisis hidráulico se desarrolló considerando dos configuraciones de operación de las compuertas. En la condición de diseño, se asumió que un 25\,\% de las compuertas permanece cerrada mientras el resto opera normalmente, representando la situación típica de regulación del caudal derivado hacia la planta. En la condición de verificación, en cambio, se consideró la apertura total de las compuertas, lo que permite evacuar el caudal máximo posible durante un evento extraordinario y evitar el sobrepaso del muro. La comparación de ambos escenarios permite confirmar que la obra opera en régimen estable y seguro bajo condiciones normales y de crecida, cumpliendo con las exigencias establecidas para obras hidráulicas de esta categoría.
 
-\subsection*{Coeficiente de Manning}
+\subsection{Coeficiente de Manning}
 
 El coeficiente de Manning, denotado como $n$, es un parámetro empírico utilizado en la ecuación de Manning para describir la resistencia al flujo en canales abiertos. Representa los efectos combinados de la rugosidad superficial, irregularidades, vegetación, alineación y variaciones en la sección transversal del canal sobre la pérdida de energía por fricción.
 
 El valor de $n$ depende del material y de las condiciones del canal; por ejemplo, canales de concreto liso presentan valores de $n$ cercanos a 0.012, mientras que cauces naturales con vegetación o irregularidades pueden tener valores superiores a 0.035.
+
+\subsection{Experiencia de Haber--Maas}
+
+La experiencia de Haber-Maas corresponde a un experimento clásico en hidráulica de canales, desarrollado para estudiar el comportamiento del flujo sobre vertederos y estructuras de control. Su principal objetivo es analizar la relación entre el nivel del agua, el caudal y las características geométricas del vertedero, permitiendo validar las formulaciones empíricas que describen la descarga en lámina libre.
+
+En el experimento, el flujo se hace pasar sobre un vertedero de cresta afilada o de forma rectangular, registrando la variación del nivel de agua aguas arriba a medida que se incrementa el caudal. De esta forma, se determina experimentalmente la curva de gasto, que relaciona el caudal con la altura de agua sobre la cresta del vertedero.
+
+La experiencia de Haber-Maas permite observar cómo las condiciones hidráulicas (rugosidad, aireación, forma de la cresta, entre otros factores) influyen en el coeficiente $C$, y por tanto en la capacidad de descarga del vertedero. Sus resultados han sido fundamentales para el diseño y la calibración de estructuras hidráulicas, como bocatomas, compuertas y canales de derivación, garantizando un control preciso del caudal en obras de captación y regulación.
+
+\subsection{Bocatomas}
+
+Una \textbf{bocatoma} es la estructura hidráulica encargada de captar el agua desde un cauce natural, como un río o estero, y conducirla hacia una obra derivada, que puede ser un canal, una tubería o un túnel. Su función principal es regular, filtrar y controlar el ingreso del caudal de diseño, garantizando un suministro estable y libre de materiales que puedan dañar las estructuras o afectar la operación aguas abajo.
+
+Para asegurar un buen funcionamiento, una bocatoma cuenta con varios elementos fundamentales:
+
+\begin{itemize}
+    \item \textbf{Obra de toma:} punto donde se produce el control hidráulico del caudal.
+    \item \textbf{Reja de protección:} colocada en la zona de ingreso, retiene sólidos gruesos, ramas y flotantes.
+    \item \textbf{Compuerta de control o cierre:} permite regular o cortar completamente el flujo cuando es necesario.
+    \item \textbf{Cámara de entrada:} espacio donde el flujo se distribuye y estabiliza antes de ingresar a la conducción.
+    \item \textbf{Estructura de conducción inicial:} transporta el caudal hacia el sistema principal, manteniendo condiciones hidráulicas estables.
+\end{itemize}
 
 
 \newpage
@@ -315,6 +337,44 @@ Por lo tanto, la altura útil de la reja se estima en 4,2 metros, lo que represe
 \end{table}
 
 El área frontal total de la reja es de 16 m$^2$, con un área libre efectiva de 9,6 m$^2$ considerando la porosidad del 60\%. El material propuesto es acero galvanizado de alta resistencia a la corrosión, montado sobre un marco de hormigón armado empotrado en la estructura de la toma.
+
+\subsection{Compuerta}
+
+La obra de toma está conformada por un vertedero de control y una compuerta de cierre tipo guillotina, elementos que trabajan de manera complementaria para garantizar el paso del caudal de diseño bajo condiciones hidráulicas seguras y estables. En régimen normal de operación, la compuerta se mantiene completamente abierta, por lo que el flujo no se encuentra confinado. El control del caudal se produce en el borde de la cresta del vertedero, donde el agua descarga en lámina libre; por lo tanto, el vertedero regula el caudal que ingresa a la toma según la altura del nivel aguas arriba, mientras que la compuerta cumple exclusivamente funciones de cierre y seguridad.
+
+\subsubsection{Altura requerida sobre la cresta del vertedero}
+
+Para las dimensiones de la compuerta se utiliza la fórmula de Francis, la cual relaciona el caudal, el ancho de la compuerta y el nivel de agua sobre la cresta del vertedero. Además, se multiplica por un coeficiente de descarga, que en este caso es $C = 1.84$ para vertederos con cresta afilada y flujo aireado.
+
+La ecuación se expresa como:
+
+\begin{equation}
+    Q = C \, b \, H^{3/2}
+\end{equation}
+
+donde:
+\begin{itemize}
+    \item $Q$ es el caudal de diseño \, [m$^3$/s],
+    \item $C$ es el coeficiente de descarga,
+    \item $b$ es el ancho de la compuerta \, [m],
+    \item $H$ es la altura del nivel de agua sobre la cresta del vertedero \, [m].
+\end{itemize}
+
+Despejando la altura $H$ y reemplazando con el caudal de diseño y un ancho de compuerta de $b = 3$ m, se obtiene:
+
+\begin{equation}
+    H = \left( \frac{Q}{C \, b} \right)^{2/3} = \left( \frac{10}{1.84 \times 3} \right)^{2/3} = 1.49 \, \text{m}
+\end{equation}
+
+Por lo tanto, el nivel de agua aguas arriba debe estar aproximadamente \textbf{1.50 m sobre la cota de la cresta} para permitir el paso de $10 \, \text{m}^3/\text{s}$ con la compuerta totalmente izada.
+
+\subsubsection{Dimensionamiento del túnel}
+
+Se busca transportar un caudal de $10 \, \text{m}^3/\text{s}$ manteniendo velocidades moderadas (entre 2 y 3 m/s) para disminuir pérdidas, evitar erosión y prevenir fenómenos de cavitación. Se determinó un \textbf{túnel circular de 2.5 m de diámetro con entrada campanada}, lo que genera velocidades aproximadas de $2 \, \text{m/s}$ y un régimen estable con bajo riesgo de erosión.
+
+El flujo de agua ingresa al túnel como una lámina libre, es decir, el agua no llena completamente la sección en el punto de entrada. A medida que el flujo avanza dentro del túnel, puede adoptar un régimen lleno o parcialmente lleno, dependiendo de la pendiente y las pérdidas. Por lo tanto, no se requiere sumergencia sobre el eje del túnel, ya que no existe riesgo de succión o depresión: el flujo no es aspirado, sino que cae por gravedad y entra aireado.
+
+
 
 \newpage
 \section{Resultados}
